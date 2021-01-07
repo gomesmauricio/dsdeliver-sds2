@@ -28,10 +28,10 @@ public class Product implements Serializable {
 	}
 
 
-	public Product(Long id, String nome, double price, String description, String image_Uri) {
+	public Product(Long id, String name, double price, String description, String image_Uri) {
 		super();
 		this.id = id;
-		this.name = nome;
+		this.name = name;
 		this.price = price;
 		this.description = description;
 		this.imageUri = image_Uri;
@@ -48,7 +48,7 @@ public class Product implements Serializable {
 	}
 
 
-	public String getNome() {
+	public String getName() {
 		return name;
 	}
 
